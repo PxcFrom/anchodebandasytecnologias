@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <title>Ancho de Bandas y Tecnologías</title>
+  <link href="styles.css" rel="stylesheet" />
+</head>
+<body>
+
+<div class="navbar">
+  <div class="dropdown">
+    <a href="#anchodebanda">Ancho de Banda</a>
+    <!-- Enlaces del dropdown -->
+    <div class="contenedor-dropdown">
+      <a href="#caracteristicas">Caracteristicas</a>
+      <a href="#medicion">Medición</a>
+      <a href="#transferencia">Tasa de Transferencia</a>
+    </div>
+  </div>
+  <a href="#tecnologias">Tecnologias de Redes</a>
+  <a href="#tocken-ring">Tocken Ring</a>
+  <a href="#ethernet">Ethernet</a>
+  <a href="#fdd">FDD</a>
+</div>
+
+<div class="contenedor">
+  <div class="texto">
+    <h1 class="titulos" id="anchodebanda">Ancho de Banda</h1>
+    <p class="textos">
+      Es la capacidad máxima de datos que puede transmitir una conexión en un período de tiempo determinado, generalmente expresada en bits por segundo (bps). Es un indicador fundamental de la velocidad y eficiencia de una red o tecnología de comunicación. Un mayor ancho de banda permite que se envíen y reciban mayor cantidad de datos en menos tiempo, lo que resulta en una mejor experiencia para el usuario, especialmente en aplicaciones que requieren transmisión de grandes volúmenes de información como streaming, videoconferencias o descargas rápidas.
+    </p>
+  </div>
+  <img class="img" src="img/1-anchodbandas.png" title="Espectro de frecuencia y ancho de banda" alt="Espectro de frecuencia y ancho de banda"/>
+  <p class="description1">Espectro de frecuencia y ancho de banda</p>
+</div>
+
+<div class="contenedor">
+  <div class="texto">
+    <h1 class="titulos" id="caracteristicas">Caracteristicas</h1>    
+    <ul class="lista">
+      <li>Capacidad máxima: Es la cantidad de datos que la red puede soportar en un instante, determinando cuánto tráfico puede gestionar sin pérdida ni latencia significativa.</li>
+      <li>Influencia en la velocidad: La velocidad de transferencia, tanto de carga como de descarga, depende directamente del ancho de banda disponible. Cuanto mayor sea, más rápida será la transferencia de archivos y la carga de contenidos.</li>
+      <li>Dependencia de la tecnología: Con diferentes tecnologías (fibra óptica, cobre, inalámbrico), varía el ancho de banda ofrecido, desde conexiones básicas de velocidad moderada en redes de cobre, hasta conexiones ultrarrápidas en fibra óptica o 5G.</li>
+      <li>Compartido o dedicado: Algunas conexiones, como las de Wi-Fi en viviendas o redes públicas, son compartidas, lo que puede reducir la velocidad en horas pico. Otras, como conexiones dedicadas, ofrecen mayor estabilidad y velocidad garantizada.</li>
+    </ul>
+</div>
+  <img class="img" src="img/2-caracteristicas.jpg" title="Cables de fibra óptica para altas velocidades" alt="Cables de fibra óptica para altas velocidades"/>
+  <p class="description2">Cables de fibra óptica para altas velocidades</p>
+</div>
+
+<div class="contenedor2">
+  <h1 class="titulos" id="medicion">Medición</h1>
+  <p class="textos">
+    Se mide en bits por segundo y sus prefijos comunes incluyen kbps (kilobits), Mbps (megabits), Gbps (gigabits). Por ejemplo, una conexión de 100 Mbps puede transferir 100 millones de bits en un segundo, soportando de manera eficiente streaming en alta definición o múltiples dispositivos simultáneamente.
+  </p>
+  
+  <img class="img2" src="img/3-medicion.png" title="Indicador del ancho de banda en Gbps" alt="Indicador del ancho de banda en Gbps" />
+  <p class="description3">Indicador del ancho de banda en Gbps</p>
+
+  <br>
+  <br>
+
+  <h1 class="titulos" id="transferencia">Tasa de Transferencia</h1>
+  <p class="textos">
+    Es la cantidad efectiva de datos que se logra transmitir en un tiempo determinado, influenciada no solo por el ancho de banda, sino también por la calidad del enlace, interferencias y el tipo de contenido (por ejemplo, archivos comprimidos vs. sin comprimir). La tasa de transferencia se refleja en velocidades de descarga y subida que los usuarios perciben, expresadas en Mbps o Gbps.
+  </p>
+  
+  <img class="img3" src="img/4-tasadtransferencia.png" title="Diferentes velocidades de transmisión" alt="Diferentes velocidades de transmisión" />
+  <p class="description4">Diferentes velocidades de transmisión</p>
+</div>
+
+
+<div class="contenedor2">
+  
+  <h1 class="titulos" id="tecnologias">Tecnologías de Redes</h1>
+  <p class="textos">
+    Son los métodos, protocolos, hardware y sistemas que permiten la transmisión, conexión y comunicación entre diferentes dispositivos conectados en una red. En otras palabras, son los recursos y procedimientos que hacen posible que computadoras, teléfonos, servidores, y otros dispositivos puedan intercambiar datos de manera eficiente y segura.
+  </p>
+  
+  <br>
+  
+  <h1 class="titulos" id="tocken-ring">Tocken Ring</h1>
+  <p class="textos">
+    Es una tecnología de red LAN en la que los dispositivos conectados están organizados en un anillo. La transmisión de datos se controla mediante un "token" que circula por el anillo. Solo el dispositivo que posee el token puede transmitir datos, lo que evita colisiones.
+  </p>
+  
+  <br>
+
+  <p class="textos">
+    Ventajas: Control disciplinado del acceso, menos colisiones, ideal en entornos con alta demanda de orden y control.
+    <br>
+    Desventajas: Mayor costo, complejidad en configuración y mantenimiento, menor flexibilidad comparada con Ethernet.
+  </p>
+
+  <br>
+  
+  <p class="textos">Capas a las que pertenece:</p>
+    <ul class="lista">
+      <li>Capa Física: Conexión física y medios de transmisión.</li>
+      <li>Capa Enlace de datos: Control de acceso al medio mediante el token.</li>
+    </ul>
+
+  <img class="img4" src="img/5-token_ring.png" title="Red en anillo con token y MAU" alt="Red en anillo con token y MAU" />
+  <p class="description5">Red en anillo con token y MAU</p>
+
+  <h1 class="titulos" id="ethernet">Ethernet</h1>
+  <p class="textos">
+    Es la tecnología de red LAN más común y ampliamente utilizada. Funciona mediante un método de acceso al medio llamado CSMA/CD (Acceso Múltiple por Detección de Portadora con Detección de Colisiones). Se basa en cables y switches para conectar dispositivos.
+  </p>
+
+  <br>
+
+  <p class="textos">
+    Ventajas: Bajo costo, facilidad de expansión, altas velocidades alcanzables.
+    <br>
+    Desventajas: En redes muy congestionadas, puede presentarse colisión de datos, aunque en redes modernas con switches dedicados esto se minimiza.
+  </p>
+
+  <br>
+  
+  <p class="textos">Capas a las que pertenece:</p>
+    <ul class="lista">
+      <li>Capa Física: Medios físicos de transmisión.</li>
+      <li>Capa Enlace de datos: Control de acceso y direccionamiento MAC.</li>
+    </ul>
+
+    <img class="img4" src="img/6-ethernet.png" title="Red LAN con switch, hub, y módem" alt="Red LAN con switch, hub, y módem" />
+    <p class="description6">Red LAN con switch, hub, y módem</p>
+
+    <br>
+    <br>
+
+  <h1 class="titulos" id="fdd">FDD (Frequency Division Duplex)</h1>
+  <p class="textos">
+    Es una técnica de transmisión que permite que la transmisión y recepción ocurran simultáneamente en diferentes frecuencias en un mismo canal, permitiendo así un duplex completo. Se usa ampliamente en comunicaciones inalámbricas como GSM, LTE y satélites.
+  </p>
+
+  <br>
+
+  <p class="textos">
+    Ventajas: Uso eficiente del espectro, baja latencia en comunicación bidireccional.
+    <br>
+    Aplicaciones: Telefonía móvil, radio, enlaces satelitales, comunicaciones de larga distancia.
+  </p>
+
+  <br>
+  
+  <p class="textos">Capas a las que pertenece:</p>
+    <ul class="lista">
+      <li>Capa Física: Transmisión en diferentes frecuencias, modulaciones.</li>
+    </ul>
+
+    <img class="img3" src="img/7-fdd.png" title="Espectro con FDD para transmisión en diferentes bandas" alt="Espectro con FDD para transmisión en diferentes bandas" />
+    <p class="description3">Espectro con FDD para transmisión en diferentes bandas</p>
+</div>
+
+<div class="footer">
+  <p>Oscar Linares C.I: 30485553</p>
+  <p>PNF Informática Trayecto II</p>
+</div>
+
+</body>
+</html>

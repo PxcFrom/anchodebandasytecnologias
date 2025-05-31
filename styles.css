@@ -1,0 +1,176 @@
+body {
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";	
+color: #1a2e35;
+font-weight: bold;
+background: url('images/dottet_bg.png');
+}
+
+.contenedor {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.contenedor2 {
+  display: block;
+  padding: 20px;
+}
+
+.texto {
+  max-width: 60%;
+  flex: 1;
+  text-align: left;
+}
+
+.img {
+  max-width: 31%;
+  height: auto;
+}
+
+.img2 {
+  margin-left: 458px;
+  max-width: 40%;
+}
+
+.img3 {
+  margin-left: 400px;
+}
+
+.img4 {
+  margin-left: 420px;
+  max-width: 34%;
+}
+
+.lista li{
+	padding-top: 15px;
+	color: #555;
+}
+
+.textos{
+	display: flex;
+	align-items: center;
+	color: #555;
+}
+
+.titulos{
+	color: #222;
+}
+
+.footer{
+	background-color: blue;
+	color: white;
+	display: flex;
+	gap: 20px;
+	justify-content: center;
+}
+
+
+.navbar {
+  background-color: #003366;
+  padding: 10px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+
+.navbar > a{
+  color:  white;
+  padding: 10px 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.dropdown > a{
+  cursor: pointer;
+  transition: color 0.3s;
+  color: white;
+  text-decoration: none;
+}
+
+.dropdown > a:hover {
+  color: #ddd;
+}
+
+
+.contenedor-dropdown {
+  position: absolute;
+  top: 100%;
+  left: -40px;   /* ajusta si quieres más a la izquierda */
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  min-width: 220px;
+  z-index: 1000;
+  padding: 0;
+  transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s;
+  transform: translateY(-10px);
+  opacity: 0;
+  visibility: hidden; /* importante para que no intercepte clics */
+}
+
+.dropdown:hover .contenedor-dropdown {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.contenedor-dropdown a {
+  display: block;
+  padding: 10px 15px;
+  color: black;
+  text-decoration: none;
+  border-bottom: 1px solid #eee;
+  background: #fff;
+  transition: background 0.2s;
+}
+
+.contenedor-dropdown a:hover {
+  background-color: #f0f0f0;
+}
+
+#caracteristicas, #medicion, #transferencia, #tecnologias, #tocken-ring, #ethernet, #fdd {
+  scroll-margin-top: 80px;
+}
+
+ .description1{
+ 	margin-top: 280px;
+ 	margin-left: -461px;
+ 	margin-right: 50px;
+ }
+
+.description2{
+    margin-top: 300px;
+    margin-left: -450px;
+    margin-right: 48px;
+}
+
+.description3{
+    margin-left: 467px;
+}
+
+.description4{
+    margin-left: 495px;
+}
+
+.description5{
+    margin-left: 535px;
+}
+
+.description6{
+    margin-left: 515px;
+}
+
+.description1, .description2, .description3, .description4, .description5, .description6{
+	color: black;
+}
