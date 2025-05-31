@@ -139,7 +139,7 @@ background: url('images/dottet_bg.png');
   background-color: #f0f0f0;
 }
 
-#caracteristicas, #medicion, #transferencia, #tecnologias, #tocken-ring, #ethernet, #fdd {
+#anchodebanda, #caracteristicas, #medicion, #transferencia, #tecnologias, #tocken-ring, #ethernet, #fdd {
   scroll-margin-top: 80px;
 }
 
